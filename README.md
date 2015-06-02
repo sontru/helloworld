@@ -15,7 +15,7 @@
 
 ## Overview
 
-This Hello World Puppet Module was created using the 'puppet module generate sontru-helloworld' command on the Puppet (Master/Enterprise) server.
+This Hello World Puppet Module was created using the `puppet module generate sontru-helloworld` command on the Puppet (Master/Enterprise) server.
 
 This module was uploaded here on GitHub after creating a new project called helloworld and performing the following git commands:
 ```
