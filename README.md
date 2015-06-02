@@ -18,7 +18,7 @@
 This Hello World Puppet Module was created using the 'puppet module generate sontru-helloworld' command on the Puppet (Master/Enterprise) server.
 
 This module was uploaded here on GitHub after creating a new project called helloworld and performing the following git commands:
-
+`
 cd sontru-helloworld/
 git init
 git add -A
@@ -26,7 +26,7 @@ git commit -m "first commit"
 git remote add origin git@github.com:sontru/helloworld.git
 git remote set-url origin git@github.com:sontru/helloworld.git #might not be necessary
 git push -u origin master
-
+`
 ## Module Description
 
 This helloworld module just simply creates a file sontru-helloworl in the /tmp directory (i.e. /tmp/sontru-helloworld) which has the contents "Hello World from sontru".
