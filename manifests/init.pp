@@ -40,6 +40,6 @@ class helloworld (
   $prole = $helloworld::params::prole,
 ){
 	file { "/tmp/helloworld":
-	  content => 'Hello $name! You are a $prole!',
+	  content => 'Hello $sname! You are a $prole!',
 	}
 }
