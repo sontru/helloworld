@@ -36,8 +36,8 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class helloworld (
-  $sname = $helloworld::params::sname,
-  $prole = $helloworld::params::prole,
+  $sname = server_name,
+  $prole = p_role,
 ){
 	file { "/tmp/helloworld":
 	  content => 'Hello $sname! You are a $prole!',
