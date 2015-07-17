@@ -39,7 +39,7 @@ class helloworld (
   $sname = $my_module::params::sname,
   $prole = $my_module::params::prole,
 ){
-	file { "/tmp/$name":
+	file { "/tmp/helloworld":
 	  content => 'Hello $name! You are a $prole!',
 	}
 }
