@@ -35,8 +35,11 @@
 #
 # Copyright 2015 Your name here, unless otherwise noted.
 #
-class helloworld {
-	file { "/tmp/sontru-helloworld":
-	  content => 'Hello World from sontru',
+class helloworld (
+  $sname = $my_module::params::sname,
+  $prole = $my_module::params::prole,
+){
+	file { "/tmp/$name":
+	  content => 'Hello $name! You are a $prole!',
 	}
 }
